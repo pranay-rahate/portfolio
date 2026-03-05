@@ -2,69 +2,102 @@
 <html lang="en">
 
 <head>
+
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Pranay Rahate | Senior Java Backend Developer</title>
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
 <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
 </head>
 
 <body>
 
-<header>
-<div class="container nav">
 
-<h2 class="logo">Pranay Rahate</h2>
 
-<ul class="nav-links">
-<li><a href="#whoami">Who Am I</a></li>
-<li><a href="#personal">Personal Info</a></li>
-<li><a href="#experience">Experience</a></li>
-<li><a href="#expertise">Expertise</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#certifications">Certifications</a></li>
-<li><a href="#contact">Contact</a></li>
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+<div class="container">
+
+<a class="navbar-brand text-gold fw-bold">Pranay Rahate</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse"
+data-bs-target="#navmenu">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="navmenu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+
+<li class="nav-item"><a class="nav-link" href="#expertise">Expertise</a></li>
+
+<li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+
+<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+
+<li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+
+<li class="nav-item"><a class="nav-link" href="#certification">Certification</a></li>
+
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
 </ul>
 
 </div>
-</header>
 
-<section class="hero">
+</div>
 
-<div class="container hero-container">
+</nav>
 
-<div class="hero-text">
 
-<h1>Senior Java Backend Developer</h1>
 
-<p>
-Building scalable enterprise applications using Java, Spring Boot, Microservices and AWS.
+<!-- HERO -->
+
+<section class="hero text-center">
+
+<div class="container">
+
+<img src="assets/Pranay_Rahate_Photo.jpg" class="profile-img">
+
+<h1 class="mt-3">Pranay Rahate</h1>
+
+<h4 class="text-muted">Senior Java Backend Developer</h4>
+
+<p class="hero-text">
+
+Full Stack Java Developer with 3.7+ years of experience building scalable
+enterprise applications using Java, Spring Boot, Microservices and AWS.
+
 </p>
 
-<div class="hero-buttons">
+<div class="mt-4">
 
-<a class="btn-primary" href="assets/Rahate_Pranay_Resume_05032026.pdf" download>
+<a href="assets/Rahate_Pranay_Resume_02032026.pdf"
+class="btn btn-gold me-2">
+
 Download Resume
+
 </a>
 
-<a class="btn-outline" href="https://www.linkedin.com/in/pranay-rahate-263307208/" target="_blank">
-LinkedIn
+<a href="mailto:corporate.pranay@gmail.com"
+class="btn btn-outline-dark">
+
+Contact Me
+
 </a>
-
-<a class="btn-outline" href="mailto:corporate.pranay@gmail.com">
-Email
-</a>
-
-</div>
-
-</div>
-
-<div class="hero-image">
-
-<img src="assets/Pranay_Rahate_Photo.jpg">
 
 </div>
 
@@ -72,99 +105,74 @@ Email
 
 </section>
 
-<section id="whoami" class="section">
+
+
+<!-- ABOUT -->
+
+<section id="about" class="section-light">
 
 <div class="container">
 
-<h2>Who Am I</h2>
+<h2 class="section-title">Who Am I</h2>
 
-<div class="card">
+<p class="text-center about-text">
 
-<p>
-Full Stack Java Developer with 3.7+ years of experience building scalable enterprise applications using Java, Spring Boot and Microservices architecture.
-</p>
+Backend engineer with 3.7+ years of experience designing enterprise
+applications for Hewlett-Packard clients through Capgemini and Mphasis.
 
-<p>
-Delivered enterprise solutions for Hewlett-Packard through Capgemini and Mphasis. Experienced in REST APIs, cloud infrastructure using AWS and modern software development practices.
-</p>
+Strong expertise in Java backend systems, REST APIs, Microservices
+architecture, cloud development and enterprise production environments.
 
-<p>
-Strong background in Agile development, cross-team collaboration, production support and continuous system improvement.
+Experienced in Agile delivery models, SDLC collaboration, production
+support and scalable architecture design.
+
 </p>
 
 </div>
 
-</div>
-
 </section>
 
-<section id="personal" class="section light">
+
+
+<!-- EXPERTISE -->
+
+<section id="expertise">
 
 <div class="container">
 
-<h2>Personal Information</h2>
+<h2 class="section-title">My Expertise</h2>
 
-<div class="info-grid">
+<div class="row text-center">
 
-<div><strong>Name</strong><span>Pranay Rahate</span></div>
+<div class="col-md-4">
 
-<div><strong>Email</strong><span>corporate.pranay@gmail.com</span></div>
+<i class="fa-solid fa-server icon"></i>
 
-<div><strong>Phone</strong><span>+91 7387517646</span></div>
+<h5>Enterprise Backend Systems</h5>
 
-<div><strong>Location</strong><span>Pune, Maharashtra</span></div>
-
-<div><strong>Current Company</strong><span>Mphasis (Client HP)</span></div>
-
-<div><strong>Experience</strong><span>3.7+ Years</span></div>
+<p>Design scalable backend architecture for enterprise clients.</p>
 
 </div>
 
-</div>
+<div class="col-md-4">
 
-</section>
+<i class="fa-solid fa-cloud icon"></i>
 
-<section id="experience" class="section">
+<h5>Cloud Development</h5>
 
-<div class="container">
-
-<h2>Professional Experience</h2>
-
-<div class="card">
-
-<h3>Mphasis — Senior Software Engineer</h3>
-
-<span>Apr 2025 – Present</span>
-
-<ul>
-
-<li>Designing scalable cloud based enterprise backend systems.</li>
-
-<li>Developing REST APIs using Java 17, Spring Boot, MongoDB and MySQL.</li>
-
-<li>Data migration of 20M+ records using scheduled batch processes.</li>
-
-<li>Maintaining high quality testing with JUnit and TDD practices.</li>
-
-</ul>
+<p>Experience with AWS services including SQS, S3 and CloudWatch.</p>
 
 </div>
 
-<div class="card">
+<div class="col-md-4">
 
-<h3>Capgemini — Associate II Software Engineer</h3>
+<i class="fa-solid fa-robot icon"></i>
 
-<span>Jun 2022 – Mar 2025</span>
+<h5>Modern Developer Tools</h5>
 
-<ul>
+<p>Adaptable to AI developer tools, automation and modern DevOps workflows.</p>
 
-<li>Developed microservices architecture applications.</li>
-
-<li>Built asynchronous systems using RabbitMQ and AWS SQS.</li>
-
-<li>Worked closely with HP clients in Agile sprint cycles.</li>
-
-</ul>
+</div>
 
 </div>
 
@@ -172,33 +180,33 @@ Strong background in Agile development, cross-team collaboration, production sup
 
 </section>
 
-<section id="expertise" class="section light">
+
+
+<!-- EXPERIENCE -->
+
+<section id="experience" class="section-light">
 
 <div class="container">
 
-<h2>My Expertise</h2>
+<h2 class="section-title">Professional Experience</h2>
 
-<div class="card">
+<div class="card shadow mb-4">
+
+<div class="card-body">
+
+<h5>Mphasis (Client HP)</h5>
+
+<p class="text-muted">Senior Software Engineer | 2025 – Present</p>
 
 <ul>
 
-<li>Enterprise application backend development</li>
+<li>Develop REST APIs using Java 17 and Spring Boot.</li>
 
-<li>REST API development using Java and Spring Boot</li>
+<li>Handle enterprise backend services for HP applications.</li>
 
-<li>Microservices architecture</li>
+<li>Executed migration of 20M+ records using scheduled batch jobs.</li>
 
-<li>Cloud development using AWS</li>
-
-<li>Async processing using RabbitMQ and SQS</li>
-
-<li>Production support and issue resolution</li>
-
-<li>Docker containerization</li>
-
-<li>Adaptable to Generative AI tools</li>
-
-<li>Agile development and SDLC collaboration</li>
+<li>Maintain production systems and resolve critical issues.</li>
 
 </ul>
 
@@ -206,35 +214,27 @@ Strong background in Agile development, cross-team collaboration, production sup
 
 </div>
 
-</section>
 
-<section id="skills" class="section">
 
-<div class="container">
+<div class="card shadow">
 
-<h2>Core Skills</h2>
+<div class="card-body">
 
-<div class="skills-grid">
+<h5>Capgemini (Client HP)</h5>
 
-<div>Java</div>
+<p class="text-muted">Associate Software Engineer | 2022 – 2025</p>
 
-<div>Spring Boot</div>
+<ul>
 
-<div>Microservices</div>
+<li>Developed microservices using Spring Boot and MongoDB.</li>
 
-<div>MongoDB</div>
+<li>Built asynchronous job pipelines using RabbitMQ and AWS SQS.</li>
 
-<div>MySQL</div>
+<li>Collaborated in Agile teams delivering enterprise solutions.</li>
 
-<div>AWS</div>
+</ul>
 
-<div>Docker</div>
-
-<div>JUnit</div>
-
-<div>RabbitMQ</div>
-
-<div>Git</div>
+</div>
 
 </div>
 
@@ -242,64 +242,172 @@ Strong background in Agile development, cross-team collaboration, production sup
 
 </section>
 
-<section id="certifications" class="section light">
+
+
+<!-- PROJECTS -->
+
+<section id="projects">
 
 <div class="container">
 
-<h2>Certifications</h2>
+<h2 class="section-title">Projects</h2>
 
-<div class="card">
+<div class="card shadow">
 
-<h3>AWS Certified Cloud Practitioner</h3>
+<div class="card-body">
 
-<p>Valid: Mar 2024 – Mar 2027</p>
+<h5>Employee Management System</h5>
 
-<a class="btn-primary" href="assets/Pranay_AWS_Certified_Cloud_Practitioner.pdf" target="_blank">
+<p class="text-muted">Java | Spring Boot | Angular | MySQL</p>
+
+<p>
+
+Full stack employee management system built during internship
+supporting employee record management, authentication and CRUD
+operations with Angular UI and Spring Boot backend.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- SKILLS -->
+
+<section id="skills" class="section-light">
+
+<div class="container">
+
+<h2 class="section-title">Technical Skills</h2>
+
+<div class="row">
+
+<div class="col-md-6">
+
+<p>Java</p>
+
+<div class="progress">
+<div class="progress-bar bg-gold" style="width:90%"></div>
+</div>
+
+<p class="mt-3">Spring Boot</p>
+
+<div class="progress">
+<div class="progress-bar bg-gold" style="width:85%"></div>
+</div>
+
+<p class="mt-3">Microservices</p>
+
+<div class="progress">
+<div class="progress-bar bg-gold" style="width:80%"></div>
+</div>
+
+</div>
+
+<div class="col-md-6">
+
+<p>MongoDB / MySQL</p>
+
+<div class="progress">
+<div class="progress-bar bg-gold" style="width:80%"></div>
+</div>
+
+<p class="mt-3">AWS</p>
+
+<div class="progress">
+<div class="progress-bar bg-gold" style="width:70%"></div>
+</div>
+
+<p class="mt-3">Docker</p>
+
+<div class="progress">
+<div class="progress-bar bg-gold" style="width:65%"></div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- CERTIFICATION -->
+
+<section id="certification">
+
+<div class="container text-center">
+
+<h2 class="section-title">Certification</h2>
+
+<div class="card cert-card shadow mx-auto">
+
+<div class="card-body">
+
+<h5>AWS Certified Cloud Practitioner</h5>
+
+<p>Mar 2024 – Mar 2027</p>
+
+<a href="assets/Pranay_AWS_Certified_Cloud_Practitioner_certificate.pdf"
+target="_blank"
+class="btn btn-gold">
+
 View Certificate
+
 </a>
 
 </div>
 
 </div>
 
+</div>
+
 </section>
 
-<section id="contact" class="section">
 
-<div class="container">
 
-<h2>Contact Me</h2>
+<!-- CONTACT -->
 
-<form action="https://formsubmit.co/corporate.pranay@gmail.com" method="POST">
+<section id="contact" class="section-light">
 
-<input type="hidden" name="_next" value="https://pranay-rahate.github.io/portfolio/thankyou.html">
+<div class="container text-center">
 
-<input type="text" name="name" placeholder="Name" required>
+<h2 class="section-title">Contact</h2>
 
-<input type="email" name="email" placeholder="Email" required>
+<p>Email: corporate.pranay@gmail.com</p>
 
-<textarea name="message" placeholder="Message"></textarea>
+<p>Phone: +91 7387517646</p>
 
-<button class="btn-primary">Send Message</button>
+<a href="mailto:corporate.pranay@gmail.com"
+class="btn btn-gold">
 
-</form>
+Send Email
+
+</a>
 
 </div>
 
 </section>
 
-<footer>
+
+
+<footer class="footer">
 
 <p>© 2026 Pranay Rahate</p>
 
-<p>
-<a href="mailto:corporate.pranay@gmail.com">Email</a> |
-<a href="https://github.com/pranay-rahate">GitHub</a> |
-<a href="https://www.linkedin.com/in/pranay-rahate-263307208/">LinkedIn</a>
-</p>
-
 </footer>
 
-</body>
 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
 </html>
