@@ -1,164 +1,72 @@
 body{
-font-family:Poppins,sans-serif;
-margin:0;
-background:#f7f9fc;
-color:#333;
-}
-
-.container{
-width:90%;
-max-width:1100px;
-margin:auto;
-}
-
-header{
-background:white;
-position:fixed;
-width:100%;
-top:0;
-box-shadow:0 2px 8px rgba(0,0,0,0.08);
-z-index:1000;
-}
-
-.nav{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:15px 0;
-}
-
-.logo{
-color:#2563eb;
-}
-
-.nav-links{
-display:flex;
-gap:20px;
-list-style:none;
-}
-
-.nav-links a{
-text-decoration:none;
-color:#333;
-font-weight:500;
+font-family:Arial;
+margin-top:70px;
 }
 
 .hero{
-padding-top:120px;
-padding-bottom:80px;
+background:#f5f6f7;
+padding:80px 0;
 }
 
-.hero-container{
-display:flex;
-align-items:center;
-justify-content:space-between;
-flex-wrap:wrap;
+.profile-img{
+width:160px;
+border-radius:50%;
+border:5px solid #c9a227;
 }
 
-.hero-image img{
-width:260px;
-border-radius:20px;
-box-shadow:0 10px 30px rgba(0,0,0,0.1);
+.hero-text{
+max-width:600px;
+margin:auto;
 }
 
-.section{
-padding:70px 0;
-}
-
-.light{
-background:white;
-}
-
-h2{
+.section-title{
 text-align:center;
 margin-bottom:40px;
-font-size:32px;
+font-weight:700;
 }
 
-.card{
-background:white;
-padding:25px;
-border-radius:10px;
-box-shadow:0 8px 20px rgba(0,0,0,0.05);
-margin-bottom:20px;
+.section-light{
+background:#f8f9fa;
+padding:60px 0;
 }
 
-.info-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:20px;
+#skills{
+padding:60px 0;
 }
 
-.info-grid div{
-background:white;
-padding:15px;
-border-radius:8px;
-box-shadow:0 4px 10px rgba(0,0,0,0.05);
-display:flex;
-flex-direction:column;
+#certification{
+padding:60px 0;
 }
 
-.skills-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
-gap:15px;
+.progress{
+height:10px;
 }
 
-.skills-grid div{
-background:#2563eb;
+.bg-gold{
+background:#c9a227;
+}
+
+.btn-gold{
+background:#c9a227;
 color:white;
-padding:10px;
-border-radius:6px;
-text-align:center;
 }
 
-.btn-primary{
-background:#2563eb;
+.btn-gold:hover{
+background:#a3831e;
 color:white;
-padding:10px 20px;
-border-radius:6px;
-text-decoration:none;
-border:none;
-cursor:pointer;
 }
 
-.btn-outline{
-border:2px solid #2563eb;
-padding:10px 20px;
-border-radius:6px;
-text-decoration:none;
-color:#2563eb;
+.text-gold{
+color:#c9a227;
 }
 
-form{
-max-width:500px;
-margin:auto;
-display:flex;
-flex-direction:column;
-gap:15px;
+.cert-card{
+max-width:400px;
 }
 
-input,textarea{
-padding:10px;
-border-radius:6px;
-border:1px solid #ddd;
-}
-
-footer{
+.footer{
+background:#1f1f1f;
+color:white;
 text-align:center;
-padding:30px;
-background:#e9eef6;
-}
-
-@media(max-width:768px){
-
-.hero-container{
-flex-direction:column;
-text-align:center;
-}
-
-.nav-links{
-display:none;
-}
-
+padding:20px;
 }
